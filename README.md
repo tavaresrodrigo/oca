@@ -1,6 +1,8 @@
-# Open Case Assistant - oca
+# Open Case Assistant - OCA
 
 A simple Python script to automate a general porpose case creation process. 
+
+## Getting Started
 
 ## License
 
