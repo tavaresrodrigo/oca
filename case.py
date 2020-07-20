@@ -6,6 +6,8 @@ import subprocess
 path = os.environ.get ("ospath")
 caseid = input ("CaseID: ")
 casetype = input ("chat/call/e-mail: ")
+customername = input ("Customer name: ")
+productname = input ("Product name: ")
 source_chat = path+"chat.txt"
 source_call = path+"call.txt"
 source_email = path+"email.txt"
@@ -34,5 +36,5 @@ elif casetype == "call" or casetype == "Call":
     shutil.copyfile(source_call,mailfile) 
     subprocess.Popen([text_editor,text_editor_args,mailfile])
 else:
-    shutil.copyfile(source_email,destination)
+    shutil.copyfile(source_email,mailfile)
     subprocess.Popen([text_editor,text_editor_args,mailfile])
