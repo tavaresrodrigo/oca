@@ -10,4 +10,4 @@ A simple Python script to automate a general purpose case creation process.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE)file for details
+This project is licensed under the MIT License - see the [LICENSE] (LICENSE) file for details
